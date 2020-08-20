@@ -32,7 +32,7 @@ sr[i]=$(grep -oP '(?<=<Symbolrate Value=").*?(?="/>)' $(find /home -iname ASTRA.
     mkdir -p $(echo $HOME"/Documents/"$cal"/"${freq[i]})
     cd $(echo $HOME"/Documents/"$cal"/"${freq[i]})
     for pid in `seq $pidS $pidE`; do
-       curl -Y 30000 -y 5 -m 600 -v -o $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}" "$url"/?msys="${msys[i]/-/}"&freq="${freq[i]}"&pol="${pol[i]}"&sr="${sr[i]}"&pids="$pid);
+       curl -Y 30000 -y 5 -m 3600 -v -o $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}" "$url"/?msys="${msys[i]/-/}"&freq="${freq[i]}"&pol="${pol[i]}"&sr="${sr[i]}"&pids="$pid);
        if test -f $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}) ; then
           taille=$(du -b $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}) | cut -f1);
           if (( taille < 150000 )); then 
