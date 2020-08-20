@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <_28.2E_10758_V>
+    <NIT PID="0x0010" Name="Actual Network">
+      <NetworkID HValue="0x0020" Name="ASTRA"/>
+      <Descriptor HValue="0x40" Name="Network Name">
+        <DescriptorLength Value="5"/>
+        <NetworkName String="ASTRA"/>
+      </Descriptor>
+      <TransportStreamID HValue="0x07D5" Name="11797.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11797.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E9" Name="12187.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12187.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07ED" Name="12265.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12265.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E4" Name="12090 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12090" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E8" Name="12168 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12168" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07EC" Name="12246 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12246" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E0" Name="12012 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12012" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07D8" Name="11856 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11856" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07F1" Name="12343.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12343.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07F0" Name="12324 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12324" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07F2" Name="12363 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12363" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07EB" Name="12226.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12226.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07D3" Name="11758.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11758.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07D1" Name="11719.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11719.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07D4" Name="11778 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11778" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E5" Name="12109.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12109.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07DC" Name="11934 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11934" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E7" Name="12148.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12148.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07D7" Name="11836.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11836.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E3" Name="12070.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12070.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07EA" Name="12207 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12207" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07DB" Name="11914.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11914.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07FD" Name="10773.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10773.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07FF" Name="10802.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10802.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0802" Name="10847 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10847" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="3" Name="3/4"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07FE" Name="10788 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10788" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0800" Name="10817.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10817.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x080D" Name="11023.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11023.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="3" Name="3/4"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07DA" Name="11895 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11895" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0838" Name="11685.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11685.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0844" Name="11426.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11426.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="29500"/>
+          <FECInner Value="6" Name="8/9"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0842" Name="11386.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11386.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="2" Name="a = 0.20"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="29500"/>
+          <FECInner Value="6" Name="8/9"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0813" Name="11112 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11112" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0811" Name="11082.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11082.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x082F" Name="11552.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11552.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083A" Name="11225 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11225" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0817" Name="11170.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11170.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0815" Name="11141.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11141.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x082A" Name="11479 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11479" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0814" Name="11126.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11126.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07E6" Name="12129 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12129" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07F3" Name="12382.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="12382.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083F" Name="11344.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11344.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x080F" Name="11052.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11052.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="3" Name="3/4"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083C" Name="11265 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11265" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0836" Name="11656 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11656" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083B" Name="11265 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11265" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x082C" Name="11508.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11508.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0829" Name="11464.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11464.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0834" Name="11626.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11626.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0835" Name="11641.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11641.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x082E" Name="11538 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11538" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <Descriptor HValue="0x40" Name="Network Name">
+        <DescriptorLength Value="5"/>
+        <NetworkName String="ASTRA"/>
+      </Descriptor>
+      <TransportStreamID HValue="0x07DD" Name="11953.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11953.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x082B" Name="11493.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11493.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07F9" Name="10714 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10714" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0809" Name="10964.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10964.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x080B" Name="10993.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10993.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0805" Name="10891.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10891.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0806" Name="10906 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10906" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x07FC" Name="10758.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10758.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0830" Name="11567.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11567.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0840" Name="11343 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11343" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0837" Name="11670.75 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11670.75" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="2" Name="2/3"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083D" Name="11307 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11307" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0808" Name="10936 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="10936" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0832" Name="11597 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11597" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0831" Name="11582.25 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11582.25" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x083E" Name="11307 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11307" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="27500"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0841" Name="11386.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11386.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="0" Name="Linear Horizontal"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="0" Name="a = 0.35"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="29500"/>
+          <FECInner Value="6" Name="8/9"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x080E" Name="11038 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11038" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="0" Name="DVB-S"/>
+          <Modulation Value="1" Name="QPSK"/>
+          <Symbolrate Value="22000"/>
+          <FECInner Value="4" Name="5/6"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0812" Name="11097 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11097" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="3" Name="3/4"/>
+        </Descriptor>
+      </TransportStreamID>
+      <TransportStreamID HValue="0x0810" Name="11067.5 MHz">
+        <OriginalNetworkID HValue="0x0002"/>
+        <Descriptor HValue="0x43" Name="Satellite Delivery System">
+          <DescriptorLength Value="11"/>
+          <Frequency FValue="11067.5" Unit="MHz"/>
+          <OrbitalPosition FValue="28.2" Unit="°"/>
+          <WestEastFlag Value="1" Name="East"/>
+          <Polarisation Value="1" Name="Linear Vertical"/>
+          <ModulationSystem Value="1" Name="DVB-S2"/>
+          <RollOff Value="1" Name="a = 0.25"/>
+          <Modulation Value="2" Name="8PSK"/>
+          <Symbolrate Value="23000"/>
+          <FECInner Value="3" Name="3/4"/>
+        </Descriptor>
+      </TransportStreamID>
+    </NIT>
+  </_28.2E_10758_V>
