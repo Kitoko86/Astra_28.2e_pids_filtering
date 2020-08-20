@@ -1,4 +1,5 @@
 #!/bin/bash
+cal=$(date +%a_%d_%b_%Y_%H"h"%M)
 line=$(grep -coP '(?<=<Frequency FValue=").*?(?=")' "ASTRA.xml")
 regex='^(https?)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]\.[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]$'
 until [[ ${url} =~ $regex ]]; do
@@ -21,7 +22,7 @@ until [[ ${iMax} =~ ^[0-9]+$ ]] && (( iMax <= line )) && (( iMax >= iMin )); do
 echo "Enter the ending frequency range to scan (a value between 1 and "$line") :";
 read iMax;
 done;
-cal=$(date +%a_%d_%b_%Y_%H"h"%M)
+
 for ((i = iMin;i <= iMax;i++)) do
 freq[i]=$(grep -oP '(?<=<Frequency FValue=").*?(?=")' $(find /home -iname ASTRA.xml) | sed -n "${i}p")
 pol[i]=$(grep -oP '(?<=<Polarisation Value="0" Name="Linear ).*?(?=orizontal"/>)'\|'(?<=<Polarisation Value="1" Name="Linear ).*?(?=ertical"/>)' $(find /home -iname ASTRA.xml) | sed -n "${i}p")
