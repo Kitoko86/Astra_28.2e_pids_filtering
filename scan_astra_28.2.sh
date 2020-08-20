@@ -28,8 +28,8 @@ pol[i]=$(grep -oP '(?<=<Polarisation Value="0" Name="Linear ).*?(?=orizontal"/>)
 msys[i]=$(grep -oP '(?<=<ModulationSystem Value="0" Name=").*?(?="/>)'\|'(?<=<ModulationSystem Value="1" Name=").*?(?="/>)' $(find /home -iname ASTRA.xml) | sed -n "${i}p")
 sr[i]=$(grep -oP '(?<=<Symbolrate Value=").*?(?="/>)' $(find /home -iname ASTRA.xml) | sed -n "${i}p")
    
-    mkdir -p $HOME/Documents/$(echo $cal)/$(echo ${freq[i]})
-    cd $HOME/Documents/$(echo $cal)/$(echo ${freq[i]})
+    mkdir -p $(echo $HOME"/Documents/"$cal"/"${freq[i]})
+    cd $(echo $HOME"/Documents/"$cal"/"${freq[i]})
     for pid in `seq $pidS $pidE`; do
        curl -Y 30000 -y 5 -m 600 -v -o $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}" "$url"/?msys="${msys[i]/-/}"&freq="${freq[i]}"&pol="${pol[i]}"&sr="${sr[i]}"&pids="$pid);
        if test -f $(echo $pid"_"${freq[i]}"_"${pol[i]}"_"${msys[i]}"_"${sr[i]}) ; then
@@ -39,5 +39,8 @@ sr[i]=$(grep -oP '(?<=<Symbolrate Value=").*?(?="/>)' $(find /home -iname ASTRA.
           fi     
        fi   
     done;
+    if [ -z "$(ls -A $(echo $HOME"/Documents/"$cal"/"${freq[i]}))" ]; then
+       rm -r $(echo $HOME"/Documents/"$cal"/"${freq[i]});
+    fi
   done;
 exit
